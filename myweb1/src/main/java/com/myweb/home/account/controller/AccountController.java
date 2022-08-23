@@ -15,7 +15,7 @@ public class AccountController {
 		return "account/join";
 	}
 	
-	@RequestMapping(value="join", method=RequestMethod.GET)
+	@RequestMapping(value="join", method=RequestMethod.POST)
 	public String join(AccountDTO accountDto) {
 		return "redirect:/";
 	}
