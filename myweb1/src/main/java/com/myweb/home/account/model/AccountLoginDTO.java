@@ -4,5 +4,6 @@ package com.myweb.home.account.model;
  */
 
 public class AccountLoginDTO {
-
+    private int id;
+    private String name;
 }
